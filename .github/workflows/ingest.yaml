@@ -29,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     container: riazarbi/datasci-quant:focal
     steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
+    #- name: Check out this repo
+    #  uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
         mkdir -p data/tidyquant && 
@@ -48,8 +48,8 @@ jobs:
     runs-on: ubuntu-latest
     container: riazarbi/datasci-quant:focal
     steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
+    #- name: Check out this repo
+    #  uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
         mkdir -p data/tidyquant && 
