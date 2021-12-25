@@ -7,8 +7,8 @@ on:
     - cron:  '36 */6 * * *'
 
 jobs:
-  scrape-wikipedia-sp500:
-    container: riazarbi/datasci-quant:focal
+  scrape_wikipedia_sp500:
+    runs-on: riazarbi/datasci-quant:focal
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
@@ -23,8 +23,8 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Latest wikipedia SP500 data: ${timestamp}" || exit 0
         git push
-  tidyquant-sp500:
-    container: riazarbi/datasci-quant:focal
+  scrape_tidyquant_sp500:
+    runs-on: riazarbi/datasci-quant:focal
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
