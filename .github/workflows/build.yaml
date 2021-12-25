@@ -2,9 +2,9 @@ name: docker_build
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - 'focal'
+  #push:
+  #  branches:
+  #    - 'focal'
 
 jobs:
   docker:
