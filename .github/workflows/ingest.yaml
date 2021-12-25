@@ -8,7 +8,7 @@ on:
 
 jobs:
   scrape_wikipedia_sp500:
-    runs-on: riazarbi/datasci-quant:focal
+    runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
@@ -23,14 +23,16 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Latest wikipedia SP500 data: ${timestamp}" || exit 0
         git push
+        
   scrape_tidyquant_sp500:
-    runs-on: riazarbi/datasci-quant:focal
+    runs-on: ubuntu-latest
+    container: riazarbi/datasci-quant:focal
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        Rscript -e 'print("hello")'
+        Rscript -e 'readr::write_csv(tidyquant::tq_index("SP500"), "data/tidyquant/sp500.csv")'
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
