@@ -37,7 +37,7 @@ jobs:
       run: |-
         mkdir -p data/tidyquant && 
         Rscript -e 'library(tidyquant); library(readr); tq_index("SP500") %>%  write_csv("data/tidyquant/sp500.csv")' &&
-        Rscript -e 'library(tidyquant); library(readr); tq_index("SP500") %>% tq_get(get = "stock.prices") %>% write_csv("data/tidyquant/sp500_prices.csv")'        
+        Rscript -e 'library(tidyquant); library(readr); tq_index("SP500") %>% tq_get(get = "stock.prices") %>% write_csv("data/tidyquant/sp500_prices.csv.gz")'        
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
@@ -59,7 +59,7 @@ jobs:
       run: |-
         mkdir -p data/tidyquant && 
         Rscript -e 'library(tidyquant); library(readr); tq_exchange("NYSE") %>%  write_csv("data/tidyquant/nyse.csv")' &&
-        Rscript -e 'library(tidyquant); library(readr); tq_exchange("NYSE") %>% tq_get(get = "stock.prices") %>% write_csv("data/tidyquant/nyse_prices.csv")'        
+        Rscript -e 'library(tidyquant); library(readr); tq_exchange("NYSE") %>% tq_get(get = "stock.prices") %>% write_csv("data/tidyquant/nyse_prices.csv.gz")'        
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
