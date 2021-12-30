@@ -33,7 +33,7 @@ ACHR,Archer Aviation Inc. Class A Common Stock,6.46,1533156929,United States,202
 ACI,Albertsons Companies Inc. Class A Common Stock,30.05,14037103245,United States,2020,Food Chains
 ACII,Atlas Crest Investment Corp. II Class A Common Stock,9.73,419606250,,2021,
 ACM,AECOM Common Stock,77.03,10953838855,United States,2007,Military/Government/Technical
-ACN,Accenture plc Class A Ordinary Shares (Ireland),415.42,262545745749,Ireland,2001,EDP Services
+ACN,Accenture plc Class A Ordinary Shares (Ireland),415.42,262545745749,Ireland,2001,Business Services
 ACP,Aberdeen Income Credit Strategies Fund Common Shares,10.19,177680391,United States,2011,Investment Managers
 ACP^A,Aberdeen Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock,26.89,NA,United States,NA,
 ACR,ACRES Commercial Realty Corp. Common Stock,12.5,117795100,United States,NA,Real Estate Investment Trusts
@@ -165,7 +165,7 @@ AMH^G,American Homes 4 Rent Series G cumulative redeemable perpetual preferred s
 AMH^H,American Homes 4 Rent Series H cumulative redeemable perpetual Preferred Shares of Beneficial Interest,26.84,NA,,NA,
 AMK,AssetMark Financial Holdings Inc. Common Stock,24.93,1833614140,United States,2019,Finance/Investors Services
 AMN,AMN Healthcare Services Inc AMN Healthcare Services Inc,122,5767551098,United States,NA,Assisted Living Services
-AMOV,America Movil S.A.B. de C.V. Class A American Depositary Shares,20.95,67827881881,Mexico,NA,Telecommunications Equipment
+AMOV,America Movil S.A.B. de C.V. Class A American Depositary Shares,20.95,67802881743,Mexico,NA,Telecommunications Equipment
 AMP,Ameriprise Financial Inc. Common Stock,305.41,34172269010,United States,NA,Investment Managers
 AMPI,Advanced Merger Partners Inc. Class A Common Stock,9.7158,349161563,,2021,
 AMPS,Altus Power Inc. Class A Common Stock,10.1,1566081558,,2021,
@@ -175,9 +175,9 @@ AMRC,Ameresco Inc. Class A Common Stock,78.9,4068041394,United States,2010,Water
 AMRX,Amneal Pharmaceuticals Inc. Class A Common Stock,4.91,733413353,,2018,Biotechnology: Pharmaceutical Preparations
 AMT,American Tower Corporation (REIT) Common Stock,288.88,131559908789,United States,NA,Trusts Except Educational Religious and Charitable
 AMWL,American Well Corporation Class A Common Stock,5.72,1486965835,United States,2020,Retail: Computer Software & Peripheral Equipment
-AMX,America Movil S.A.B. de C.V. American Depository Receipt Series L,21.03,68086890499,Mexico,NA,Telecommunications Equipment
+AMX,America Movil S.A.B. de C.V. American Depository Receipt Series L,21.03,68061794895,Mexico,NA,Telecommunications Equipment
 AN,AutoNation Inc. Common Stock,113.02,7407121035,United States,NA,Other Specialty Stores
-ANAC,Arctos NorthStar Acquisition Corp. Class A Ordinary Shares,9.77,386220313,,2021,Biotechnology: Pharmaceutical Preparations
+ANAC,Arctos NorthStar Acquisition Corp. Class A Ordinary Shares,9.77,386220313,,2021,Business Services
 ANET,Arista Networks Inc. Common Stock,145.71,44774290442,,2014,Computer peripheral equipment
 ANF,Abercrombie & Fitch Company Common Stock,35.34,1996482622,United States,NA,Clothing/Shoe/Accessory Stores
 ANTM,Anthem Inc. Common Stock,467.67,113510372525,United States,NA,Medical Specialities
@@ -300,12 +300,12 @@ AYI,Acuity Brands Inc.,218.4,7641167134,United States,NA,Building Products
 AYX,Alteryx Inc. Class A Common Stock,60.94,4110637863,United States,2017,Computer Software: Prepackaged Software
 AZEK,The AZEK Company Inc. Class A Common Stock,45.57,7057718140,United States,2020,
 AZO,AutoZone Inc. Common Stock,2104.04,43415594560,United States,NA,
-AZRE,Azure Power Global Limited Equity Shares,17.08,823516999,India,2016,Electric Utilities: Central
+AZRE,Azure Power Global Limited Equity Shares,17.08,825520347,India,2016,Electric Utilities: Central
 AZUL,Azul S.A. American Depositary Shares (each representing three preferred shares),12.61,1453078168,Brazil,2017,Air Freight/Delivery Services
 AZZ,AZZ Inc.,55.82,1386544630,United States,NA,Industrial Machinery/Components
 B,Barnes Group Inc. Common Stock,46.91,2374927394,United States,NA,Office Equipment/Supplies/Services
 BA,Boeing Company (The) Common Stock,203.66,119690823960,United States,NA,Aerospace
-BABA,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,112.09,303866311029,China,2014,Catalog/Specialty Distribution
+BABA,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share,112.09,303866311029,China,2014,Business Services
 BAC,Bank of America Corporation Common Stock,44.63,385034281396,United States,NA,Major Banks
 BAC^B,Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series GG,26.45,NA,United States,NA,
 BAC^E,Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E,25.49,NA,United States,NA,
@@ -409,7 +409,7 @@ BIGZ,BlackRock Innovation and Growth Trust Common Shares of Beneficial Interest,
 BILL,Bill.com Holdings Inc. Common Stock,248.64,25498955200,,2019,Computer Software: Prepackaged Software
 BIO,Bio-Rad Laboratories Inc. Class A Common Stock,750.74,22460814242,United States,NA,Biotechnology: Laboratory Analytical Instruments
 BIO/B,Bio-Rad Laboratories Inc.,722.9102,NA,United States,NA,
-BIP,Brookfield Infrastructure Partners LP Limited Partnership Units,60.14,18354392058,Bermuda,NA,Marine Transportation
+BIP,Brookfield Infrastructure Partners LP Limited Partnership Units,60.14,18354392058,Bermuda,NA,Power Generation
 BIP^A,Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units Series 13,25.17,NA,Bermuda,NA,
 BIP^B,Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units Series 14,25.15,NA,Bermuda,NA,
 BIPC,Brookfield Infrastructure Partners LP Class A Subordinate Voting Shares,66.96,4912272045,,2020,
@@ -557,7 +557,7 @@ CBT,Cabot Corporation Common Stock,55.94,3177575707,United States,NA,Specialty C
 CBU,Community Bank System Inc. Common Stock,74.88,4038357324,United States,NA,Major Banks
 CBZ,CBIZ Inc. Common Stock,39.89,2077958456,United States,NA,Business Services
 CC,Chemours Company (The) Common Stock,33.21,5411929696,United States,2015,Industrial Specialties
-CCAC,CITIC Capital Acquisition Corp. Class A Ordinary Shares,10.01,345345000,,2020,Business Services
+CCAC,CITIC Capital Acquisition Corp. Class A Ordinary Shares,10.01,345345000,,2020,Auto Parts:O.E.M.
 CCCS,CCC Intelligent Solutions Holdings Inc. Common Stock,11.4,6882143805,United States,2020,Computer Software: Prepackaged Software
 CCI,Crown Castle International Corp. (REIT) Common Stock,207.3,89595733310,United States,NA,Real Estate Investment Trusts
 CCJ,Cameco Corporation Common Stock,22.03,8767112289,Canada,1996,
@@ -565,7 +565,7 @@ CCK,Crown Holdings Inc.,109.67,14023265245,United States,NA,Containers/Packaging
 CCL,Carnival Corporation Common Stock,20.79,24236205889,United States,1987,Marine Transportation
 CCM,Concord Medical Services Holdings Limited ADS (Each represents three ordinary shares),2.0869,90607413,China,2009,Medical/Nursing Services
 CCO,Clear Channel Outdoor Holdings Inc. Common Stock,3.28,1543908034,United States,2005,Advertising
-CCRD,CoreCard Corporation,38.99,339235185,United States,NA,
+CCRD,CoreCard Corporation Common Stock,38.99,339235185,United States,NA,Retail: Computer Software & Peripheral Equipment
 CCS,Century Communities Inc. Common Stock,81.94,2766371424,United States,2014,Homebuilding
 CCU,Compania Cervecerias Unidas S.A. Common Stock,16.14,2981888177,Chile,NA,Beverages (Production/Distribution)
 CCV,Churchill Capital Corp V Class A Common Stock,9.92,620000000,,2021,
@@ -649,7 +649,7 @@ CLIM,Climate Real Impact Solutions II Acquisition Corporation Class A Common Sto
 CLPR,Clipper Realty Inc. Common Stock,9.91,159186589,United States,2017,Real Estate Investment Trusts
 CLR,Continental Resources Inc. Common Stock,45.24,16538878785,United States,2007,Oil & Gas Production
 CLS,Celestica Inc. Common Stock,11.17,1393036815,Canada,1998,
-CLVT,Clarivate Plc Ordinary Shares,22.77,15635863559,,2019,Movies/Entertainment
+CLVT,Clarivate Plc Ordinary Shares,22.77,15635863559,,2019,EDP Services
 CLVT^A,Clarivate Plc 5.25% Series A Mandatory Convertible Preferred Shares,88.23,NA,,NA,
 CLW,Clearwater Paper Corporation Common Stock,36.9,615836498,United States,NA,Paper
 CLX,Clorox Company (The) Common Stock,171.38,21056220837,United States,NA,Specialty Chemicals
@@ -776,7 +776,7 @@ CUBE,CubeSmart Common Shares,56.78,12424072852,United States,NA,Real Estate Inve
 CUBI,Customers Bancorp Inc Common Stock,65.71,2129817358,United States,NA,Major Banks
 CUBI^E,Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series E,25.38,NA,United States,NA,
 CUBI^F,Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series F,25.19,NA,United States,NA,
-CUK,Carnival Plc ADS ADS,19.11,22261813561,United States,NA,
+CUK,Carnival Plc ADS ADS,19.11,22261813561,United States,NA,Marine Transportation
 CULP,Culp Inc. Common Stock,8.99,109765293,United States,NA,Textiles
 CURO,CURO Group Holdings Corp. Common Stock,15.95,645214759,,2017,Diversified Financial Services
 CURV,Torrid Holdings Inc. Common Stock,9.89,1088808060,,2021,Clothing/Shoe/Accessory Stores
@@ -837,7 +837,7 @@ DECK,Deckers Outdoor Corporation Common Stock,365.86,10042169183,United States,1
 DEI,Douglas Emmett Inc. Common Stock,33.79,5929664506,United States,2006,Real Estate Investment Trusts
 DELL,Dell Technologies Inc. Class C Common Stock,57.05,43579634857,,2018,Computer Manufacturing
 DEN,Denbury Inc. Common Stock,76.06,3812311037,,2020,Oil & Gas Production
-DEO,Diageo plc Common Stock,221.79,129043996521,United Kingdom,NA,Beverages (Production/Distribution)
+DEO,Diageo plc Common Stock,221.79,129031678083,United Kingdom,NA,Beverages (Production/Distribution)
 DESP,Despegar.com Corp. Ordinary Shares,9.99,700292287,,2017,Other Consumer Services
 DEX,Delaware Enhanced Global Dividend Common Shares of Beneficial Interest,10.15,114736940,United States,2007,Finance Companies
 DFIN,Donnelley Financial Solutions Inc. Common Stock,47.12,1561738212,,2016,Investment Managers
@@ -900,7 +900,6 @@ DRQ,Dril-Quip Inc. Common Stock,19.67,696040358,United States,1997,Metal Fabrica
 DS,Drive Shack Inc.,1.46,134456401,United States,NA,Movies/Entertainment
 DS^B,Drive Shack Inc. Preferred Series B,25.6,NA,United States,NA,
 DS^C,Drive Shack Inc. Preferred Series C,25.1,NA,United States,NA,
-DS^D,Drive Shack Inc. Pfd Ser D,25.15,NA,United States,NA,
 DSL,DoubleLine Income Solutions Fund Common Shares of Beneficial Interests,15.98,1629909311,,2013,Trusts Except Educational Religious and Charitable
 DSM,BNY Mellon Strategic Municipal Bond Fund Inc. Common Stock,8.38,414152262,United States,1989,Investment Managers
 DSU,Blackrock Debt Strategies Fund Inc. Common Stock,12.12,564692701,United States,1998,Finance Companies
@@ -1038,7 +1037,7 @@ EQS,Equus Total Return Inc. Common Stock,2.25,30415829,United States,NA,Finance/
 EQT,EQT Corporation Common Stock,22.8,8617365541,United States,NA,Oil & Gas Production
 ERF,Enerplus Corporation Common Stock,10.51,2680050000,Canada,NA,
 ERJ,Embraer S.A. Common Stock,17.11,3148852127,Brazil,2000,Aerospace
-ERO,Ero Copper Corp. Common Shares,15,1345445130,,2021,Precious Metals
+ERO,Ero Copper Corp. Common Shares,15,1345445130,,2021,
 ES,Eversource Energy (D/B/A) Common Stock,90.61,31152244625,United States,NA,Electric Utilities: Central
 ESE,ESCO Technologies Inc. Common Stock,87.99,2296642124,United States,NA,Telecommunications Equipment
 ESGC,Eros STX Global Corporation A Ordinary Shares,0.2343,88783426,,2013,Movies/Entertainment
@@ -1093,7 +1092,7 @@ F,Ford Motor Company Common Stock,20.56,82162725302,United States,NA,Auto Manufa
 F^B,Ford Motor Company 6.20% Notes due June 1 2059,27.15,NA,United States,NA,
 F^C,Ford Motor Company 6% Notes due December 1 2059,26.94,NA,United States,NA,
 FACA,Figure Acquisition Corp. I Class A Common Stock,9.7899,402085173,,2021,
-FACT,Freedom Acquisition I Corp. Class A Ordinary Shares,9.7,418312500,,2021,Biotechnology: Pharmaceutical Preparations
+FACT,Freedom Acquisition I Corp. Class A Ordinary Shares,9.7,418312500,,2021,Business Services
 FAF,First American Corporation (New) Common Stock,78.66,8634271119,United States,NA,Specialty Insurers
 FAM,First Trust/Aberdeen Global Opportunity Income Fund First Trust/Aberdeen Global Opportunity Income Fund Common Shares of Beneficial Interest,9.71,98428610,United States,2006,Finance/Investors Services
 FATH,Fathom Digital Manufacturing Corporation Class A Common Stock,6.79,NA,,2021,
@@ -1119,7 +1118,7 @@ FEDU,Four Seasons Education (Cayman) Inc. American Depositary Shares each two AD
 FEI,First Trust MLP and Energy Income Fund Common Shares of Beneficial Interest,7.27,328814132,,2012,Finance/Investors Services
 FENG,Phoenix New Media Limited American Depositary Shares each representing 8 Class A ordinary shares.,0.83,60416148,China,2011,Broadcasting
 FEO,First Trust/Aberdeen Emerging Opportunity Fund Common Shares of Beneficial Interest,13.01,64943344,United States,NA,Investment Managers
-FERG,Ferguson plc Ordinary Shares,179.31,39561371327,,2021,Industrial Machinery/Components
+FERG,Ferguson plc Ordinary Shares,179.31,39557785127,,2021,Industrial Machinery/Components
 FET,Forum Energy Technologies Inc. Common Stock,16.01,90943556,United States,2012,Metal Fabrications
 FF,FutureFuel Corp.  Common shares,7.55,330412485,United States,NA,Major Chemicals
 FFA,First Trust Enhanced Equity Income Fund,21.7,433627585,United States,2004,Investment Managers
@@ -1187,7 +1186,7 @@ FRC^L,FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest 
 FRC^M,FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 4.000% Noncumulative Perpetual Series M Preferred Stock,24.3,NA,United States,NA,
 FRC^N,First Republic Bank Depositary Shares Each Representing a 1/40th Interest in a Share of 4.500% Noncumulative Perpetual Series N Preferred Stock,25.92,NA,United States,NA,
 FREY,FREYR Battery Ordinary Shares,10.83,1265523448,,2021,
-FRO,Frontline Ltd. Ordinary Shares,6.98,1420646233,Bermuda,NA,
+FRO,Frontline Ltd. Ordinary Shares,6.98,1420646233,Bermuda,NA,Marine Transportation
 FRT,Federal Realty Investment Trust Common Stock,136.03,10581704461,United States,NA,Real Estate Investment Trusts
 FRT^C,Federal Realty Investment Trust Depositary Shares each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share,25.6734,NA,United States,NA,
 FRXB,Forest Road Acquisition Corp. II Class A Common Stock,9.75,426562500,,2021,
@@ -1257,11 +1256,10 @@ GEO,Geo Group Inc (The) REIT,7.7,943518892,United States,NA,Real Estate Investme
 GER,Goldman Sachs MLP Energy Renaissance Fund,10.12,163887368,,1986,Trusts Except Educational Religious and Charitable
 GES,Guess? Inc. Common Stock,23.82,1547696092,United States,1996,
 GF,New Germany Fund Inc. (The) Common Stock,14.96,235631295,United States,1990,Investment Managers
-GFF,Griffon Corporation Common Stock,29.02,1642909579,United States,NA,Diversified Manufacture
+GFF,Griffon Corporation Common Stock,29.02,1642909579,United States,NA,Building Products
 GFI,Gold Fields Limited American Depositary Shares,10.74,9534084318,South Africa,NA,Precious Metals
 GFL,GFL Environmental Inc. Subordinate voting shares no par value,37.6,12535729644,,2020,
 GFLU,GFL Environmental Inc. Tangible Equity Units,85.97,0,,2020,
-GFOR,Graf Acquisition Corp. IV Common Stock,9.66,207234773,,2021,
 GFX,Golden Falcon Acquisition Corp. Class A Common Stock,9.77,421331250,,2021,
 GGB,Gerdau S.A. Common Stock,4.76,8118543364,Brazil,NA,Steel/Iron Ore
 GGG,Graco Inc. Common Stock,80.6,13699225426,United States,NA,Fluid Controls
@@ -1284,10 +1282,8 @@ GIM,Templeton Global Income Fund Inc. Common Stock,5.23,537626364,United States,
 GIS,General Mills Inc. Common Stock,67.02,40426913034,United States,NA,Food Chains
 GJH,Synthetic Fixed-Income Securities Inc 6.375% (STRATS) Cl A-1,10.55,0,United States,NA,
 GJO,Synthetic Fixed-Income Securities Inc. Synthetic Fixed-Income Securities Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores Inc. Securities Series 2004-5,23.96,0,United States,NA,
-GJP,Synthetic Fixed-Income Securities Inc. Synthetic Fixed-Income Securities Inc. on behalf of STRATS (SM) Trust for Dominion Resources Inc. Securities Series 2005-6 Floating Rate Structured Repackaged Asset-Backed Trust Securities (STRATS) Certificates,24.3147,0,United States,NA,
-GJR,Synthetic Fixed-Income Securities Inc. STRATS Trust for Procter&Gamble Securities Series 2006-1,23.55,0,United States,NA,Investment Managers
+GJR,Synthetic Fixed-Income Securities Inc. STRATS Trust for Procter&Gamble Securities Series 2006-1,23.55,0,United States,NA,Finance: Consumer Services
 GJS,Goldman Sachs Group Securities STRATS Trust for Goldman Sachs Group Securities Series 2006-2,21.5,0,United States,NA,Finance: Consumer Services
-GJT,Synthetic Fixed-Income Securities Inc. Synthetic Fixed-Income Securities Inc. Floating Rate Structured Repackaged Asset-Backed Trust Securities Certificates Series 2006-3,20.65,0,United States,NA,
 GKOS,Glaukos Corporation Common Stock,46.03,2158354755,United States,2015,Medical/Dental Instruments
 GL,Globe Life Inc. Common Stock,94.68,9560713023,United States,NA,Life Insurance
 GL^D,Globe Life Inc. 4.25% Junior Subordinated Debentures due 2061,25.8,NA,United States,NA,
@@ -1337,7 +1333,7 @@ GPOR,Gulfport Energy Corporation Common Shares,76.1,1566591860,United States,202
 GPRK,Geopark Ltd Common Shares,11.02,669376311,Bermuda,2014,Oil & Gas Production
 GPS,Gap Inc. (The) Common Stock,17.65,6590567257,United States,NA,Clothing/Shoe/Accessory Stores
 GRBK,Green Brick Partners Inc. Common Stock,30.52,1549194345,United States,2021,Homebuilding
-GRBK^A,Green Brick Partners Inc.,25.6,NA,United States,NA,
+GRBK^A,Green Brick Partners Inc. Depositary Shares (each representing a 1/1000th fractional interest in a share of 5.75% Series A Cumulative Perpetual Preferred Stock),25.6,NA,United States,NA,
 GRC,Gorman-Rupp Company (The) Common Stock,44.75,1169167140,United States,NA,Fluid Controls
 GRMN,Garmin Ltd. Common Stock (Switzerland),136.02,26159645105,Switzerland,2000,Industrial Machinery/Components
 GRX,The Gabelli Healthcare & Wellness Trust Common Shares of Beneficial Interest,13.41,231007258,United States,NA,Finance/Investors Services
@@ -1522,9 +1518,9 @@ IMAX,Imax Corporation Common Stock,18.09,1068793362,Canada,NA,
 IMPX,AEA-Bridges Impact Corp. Class A Ordinary Shares,10,500000000,,2020,Business Services
 INAQ,Insight Acquisition Corp. Class A Common Stock,9.76,292800000,,2021,
 INFA,Informatica Inc. Class A Common Stock,36.35,10112564039,,2021,EDP Services
-INFO,IHS Markit Ltd. Common Shares,133.44,53221393480,Bermuda,1996,Computer Software: Programming Data Processing
+INFO,IHS Markit Ltd. Common Shares,133.44,53221393480,Bermuda,1996,Business Services
 INFY,Infosys Limited American Depositary Shares,25.38,106354206034,India,NA,EDP Services
-ING,ING Group N.V. Common Stock,13.89,52622736968,Netherlands,1997,Commercial Banks
+ING,ING Group N.V. Common Stock,13.89,52445013140,Netherlands,1997,Commercial Banks
 INGR,Ingredion Incorporated Common Stock,97.02,6455316123,United States,NA,Farming/Seeds/Milling
 INN,Summit Hotel Properties Inc. Common Stock,9.69,1031507864,United States,2011,Real Estate Investment Trusts
 INN^E,Summit Hotel Properties Inc. 6.250% Series E Cumulative Redeemable Preferred Stock,25.28,NA,United States,NA,
@@ -1532,8 +1528,7 @@ INN^F,Summit Hotel Properties Inc. 5.875% Series F Cumulative Redeemable Preferr
 INSI,Insight Select Income Fund,22.25,238298279,United States,NA,Investment Managers
 INSP,Inspire Medical Systems Inc. Common Stock,227.92,6235457924,United States,1998,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 INST,Instructure Holdings Inc. Common Stock,23.15,3250812174,,2021,Computer Software: Prepackaged Software
-INSW,International Seaways Inc. Common Stock,14.51,719870396,,2016,Semiconductors
-INSW^A,International Seaways Inc. 8.50% Senior Notes due June 30 2023,26.2211,NA,,NA,
+INSW,International Seaways Inc. Common Stock,14.51,719870396,,2016,Marine Transportation
 INT,World Fuel Services Corporation Common Stock,26.77,1691051129,United States,NA,Oil Refining/Marketing
 INVH,Invitation Homes Inc. Common Stock,45.17,26956041005,United States,2017,Real Estate Investment Trusts
 IO,Ion Geophysical Corporation Common Stock,0.9136,27058128,United States,NA,Oilfield Services/Equipment
@@ -1562,7 +1557,7 @@ ITGR,Integer Holdings Corporation Common Stock,86.11,2843254637,United States,NA
 ITT,ITT Inc. Common Stock,102.7,8791120000,United States,2011,Fluid Controls
 ITUB,Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares),3.72,36381193118,Brazil,NA,Commercial Banks
 ITW,Illinois Tool Works Inc. Common Stock,247.07,77550510726,United States,NA,Industrial Machinery/Components
-IVAN,Ivanhoe Capital Acquisition Corp. Class A Ordinary Shares,9.94,342930000,,2021,Industrial Machinery/Components
+IVAN,Ivanhoe Capital Acquisition Corp. Class A Ordinary Shares,9.94,342930000,,2021,Business Services
 IVC,Invacare Corporation Common Stock,2.78,97354716,United States,NA,Industrial Specialties
 IVH,Delaware Ivy High Income Opportunities Fund,13.9,230323000,,2013,Investment Managers
 IVR,INVESCO MORTGAGE CAPITAL INC Common Stock,2.86,891578574,United States,2009,Real Estate Investment Trusts
@@ -1822,7 +1817,7 @@ MFG,Mizuho Financial Group Inc. Sponosred ADR (Japan),2.57,32570252500,Japan,NA,
 MFGP,Micro Focus Intl PLC ADS each representing One Ord Sh,5.43,1822606911,,2017,Computer Software: Prepackaged Software
 MFL,Blackrock MuniHoldings Investment Quality Fund Common Shares of Beneficial Interest,14.34,543431623,United States,1997,Finance Companies
 MFM,MFS Municipal Income Trust Common Stock,6.86,282547149,United States,1986,Finance Companies
-MFV,MFS Special Value Trust Common Stock,6.82,49508999,United States,NA,Trusts Except Educational Religious and Charitable
+MFV,MFS Special Value Trust Common Stock,6.82,49580261,United States,NA,Trusts Except Educational Religious and Charitable
 MG,Mistras Group Inc Common Stock,7.61,224177229,United States,2009,Diversified Manufacture
 MGA,Magna International Inc. Common Stock,79.88,24024147723,Canada,NA,Auto Parts:O.E.M.
 MGF,MFS Government Markets Income Trust Common Stock,4.24,138165870,United States,1987,Trusts Except Educational Religious and Charitable
@@ -1845,7 +1840,7 @@ MHN,Blackrock MuniHoldings New York Quality Fund Inc. Common Stock,14.3,44518792
 MHNC,Maiden Holdings North America Ltd. 7.75% Notes due 2043,22.97,0,Bermuda,2013,Property-Casualty Insurers
 MHO,M/I Homes Inc. Common Stock,61.92,1801849090,United States,1993,Homebuilding
 MIC,Macquarie Infrastructure Holdings LLC Common Unit,3.65,320922341,United States,2004,Aerospace
-MIN,MFS Intermediate Income Trust Common Stock,3.565,413402936,United States,1988,Trusts Except Educational Religious and Charitable
+MIN,MFS Intermediate Income Trust Common Stock,3.565,413513348,United States,1988,Trusts Except Educational Religious and Charitable
 MIO,Pioneer Municipal High Income Opportunities Fund Inc. Common Stock,18.3,0,,2021,
 MIR,Mirion Technologies Inc. Class A Common Stock,10.5,2184880236,United States,2020,Industrial Machinery/Components
 MIT,Mason Industrial Technology Inc. Class A Common Stock,9.73,608125000,,2021,
@@ -1870,7 +1865,7 @@ MMI,Marcus & Millichap Inc. Common Stock,51.65,2048838151,,2013,Real Estate
 MMM,3M Company Common Stock,178.41,102809262583,United States,NA,
 MMP,Magellan Midstream Partners L.P. Limited Partnership,44.74,9549539948,United States,NA,Oil & Gas Production
 MMS,Maximus Inc. Common Stock,80.73,5001567975,United States,1997,Business Services
-MMT,MFS Multimarket Income Trust Common Stock,6.48,390929121,United States,1987,Trusts Except Educational Religious and Charitable
+MMT,MFS Multimarket Income Trust Common Stock,6.48,391541286,United States,1987,Trusts Except Educational Religious and Charitable
 MMU,Western Asset Managed Municipals Fund Inc. Common Stock,13.05,565950456,United States,1992,Investment Managers
 MN,Manning & Napier Inc. Class A Common Stock,7.96,146985810,United States,2011,Investment Managers
 MNP,Western Asset Municipal Partners Fund Inc. Common Stock,15.46,150256714,United States,1993,Trusts Except Educational Religious and Charitable
@@ -1917,7 +1912,7 @@ MSGS,Madison Square Garden Sports Corp. Class A Common Stock (New),173.02,419022
 MSI,Motorola Solutions Inc. Common Stock,272.73,46063411902,United States,NA,Radio And Television Broadcasting And Communications Equipment
 MSM,MSC Industrial Direct Company Inc. Common Stock,85.14,4750020028,United States,1995,Industrial Machinery/Components
 MSP,Datto Holding Corp. Common Stock,26.55,4329600788,United States,2020,Computer Software: Prepackaged Software
-MT,Arcelor Mittal NY Registry Shares NEW,32.43,30013393616,Luxembourg,NA,Steel/Iron Ore
+MT,Arcelor Mittal NY Registry Shares NEW,32.43,29997178616,Luxembourg,NA,Steel/Iron Ore
 MTAL,Metals Acquisition Corp Class A Ordinary Shares,9.69,321160273,,2021,
 MTB,M&T Bank Corporation Common Stock,154.1,19830291775,United States,NA,Major Banks
 MTCN,ArcelorMittal 5.50% Mandatorily Convertible Subordinated Notes due 2023,76,0,Luxembourg,2020,Steel/Iron Ore
@@ -1971,7 +1966,7 @@ NBR,Nabors Industries Ltd.,83.16,685329377,Bermuda,NA,Oil & Gas Production
 NBXG,Neuberger Berman Next Generation Connectivity Fund Inc. Common Stock,17.06,0,,2021,
 NC,"NACCO Industries Inc. Common Stock",34.36,246491493,United States,NA,
 NCA,Nuveen California Municipal Value Fund,10.11,334723862,United States,NA,Investment Managers
-NCLH,Norwegian Cruise Line Holdings Ltd. Ordinary Shares,21.58,8996527526,United States,NA,Marine Transportation
+NCLH,Norwegian Cruise Line Holdings Ltd. Ordinary Shares,21.58,8996527526,United States,NA,Hotels/Resorts
 NCR,NCR Corporation Common Stock,39.78,5250960000,United States,NA,Office Equipment/Supplies/Services
 NCV,Virtus AllianzGI Convertible & Income Fund Common Shares of Beneficial Interest,5.78,522359229,United States,2003,Finance Companies
 NCV^A,Virtus AllianzGI Convertible & Income Fund 5.625% Series A Cumulative Preferred Shares,26.525,NA,United States,NA,
@@ -2016,7 +2011,7 @@ NIE,Virtus AllianzGI Equity & Convertible Income Fund Common Shares of Beneficia
 NIM,Nuveen Select Maturities Municipal Fund Common Stock,10.47,130312238,United States,1992,Trusts Except Educational Religious and Charitable
 NIMC,NiSource Inc Series A Corporate Units,112.64,0,United States,2021,Power Generation
 NINE,Nine Energy Service Inc. Common Stock,0.8939,29345798,United States,2018,Oilfield Services/Equipment
-NIO,NIO Inc. American depositary shares each  representing one Class A ordinary share,28.25,44933697900,,2018,Auto Manufacturing
+NIO,NIO Inc. American depositary shares each  representing one Class A ordinary share,28.25,44933697900,,2018,Finance Companies
 NIQ,Nuveenn Intermediate Duration Quality Municipal Term Fund Common Shares of Beneficial Interest,14.87,194754531,,2013,Finance/Investors Services
 NJR,NewJersey Resources Corporation Common Stock,41.17,3950462039,United States,NA,Oil/Gas Transmission
 NKE,Nike Inc. Common Stock,168.78,267147974275,United States,NA,Shoe Manufacturing
@@ -2046,7 +2041,7 @@ NMZ,Nuveen Municipal High Income Opportunity Fund Common Stock $0.01 par value p
 NNI,Nelnet Inc. Common Stock,97.45,3726668380,United States,2003,Finance: Consumer Services
 NNN,National Retail Properties Common Stock,47.79,8392731269,United States,NA,Real Estate Investment Trusts
 NNY,Nuveen New York Municipal Value Fund Common Stock,9.99,188671669,United States,1988,Investment Managers
-NOA,North American Construction Group Ltd. Common Shares (no par),14.45,410962797,Canada,2006,
+NOA,North American Construction Group Ltd. Common Shares (no par),14.45,410962797,Canada,2006,Farming/Seeds/Milling
 NOAH,Noah Holdings Limited,29.11,1778291475,China,2010,Investment Managers
 NOC,Northrop Grumman Corporation Common Stock,384.99,60573419179,United States,NA,Diversified Manufacture
 NOK,Nokia Corporation Sponsored American Depositary Shares,6.29,35441344660,Finland,1994,Radio And Television Broadcasting And Communications Equipment
@@ -2096,7 +2091,7 @@ NTB,Bank of N.T. Butterfield & Son Limited (The) Voting Ordinary Shares,38.18,19
 NTCO,Natura &Co Holding S.A. American Depositary Shares,8.79,6046551641,,2020,Package Goods/Cosmetics
 NTG,Tortoise Midstream Energy Fund Inc. Common Stock,30.38,171434067,,2010,Finance Companies
 NTP,Nam Tai Property Inc. Common Stock,10.49,411816420,China,NA,Industrial Machinery/Components
-NTR,Nutrien Ltd. Common Shares,76.05,43408272714,,2004,Aerospace
+NTR,Nutrien Ltd. Common Shares,76.05,43408272714,,2018,Aerospace
 NTST,NetSTREIT Corp. Common Stock,22.59,895127033,United States,2020,Real Estate Investment Trusts
 NTZ,Natuzzi S.p.A.,13.8,151394404,Italy,1993,Home Furnishings
 NU,Nu Holdings Ltd. Class A Ordinary Shares,9.32,42952939158,,2021,
@@ -2205,7 +2200,6 @@ PAY,Paymentus Holdings Inc. Class A Common Stock,33.36,4003965312,,2021,Retail: 
 PAYC,Paycom Software Inc. Common Stock,417.21,25043371945,,2014,Computer Software: Prepackaged Software
 PB,Prosperity Bancshares Inc. Common Stock,72.71,6701313878,United States,NA,Major Banks
 PBA,Pembina Pipeline Corp. Ordinary Shares (Canada),30.19,16615473491,Canada,NA,Oil & Gas Production
-PBC,Prospect Capital Corporation 6.875% Notes due 2029,25.06,0,United States,2018,Finance/Investors Services
 PBF,PBF Energy Inc. Class A Common Stock,13.29,1598063027,United States,2012,Integrated oil Companies
 PBFX,PBF Logistics LP Common Units representing limited partner interests,11.25,703317791,,2014,
 PBH,Prestige Consumer Healthcare Inc. Common Stock,63.12,3162574642,United States,2005,Biotechnology: Pharmaceutical Preparations
@@ -2293,8 +2287,8 @@ PLYM,Plymouth Industrial REIT Inc. Common Stock,31.53,1091110122,United States,2
 PM,Philip Morris International Inc Common Stock,94.3,146808850224,United States,NA,Farming/Seeds/Milling
 PMF,PIMCO Municipal Income Fund Common Stock,15.02,390712556,United States,2001,Finance/Investors Services
 PML,Pimco Municipal Income Fund II Common Shares of Beneficial Interest,14.57,921677802,United States,2002,Investment Managers
-PMM,Putnam Managed Municipal Income Trust Common Stock,8.79,429736675,United States,1989,Investment Managers
-PMO,Putnam Municipal Opportunities Trust Common Stock,14.52,495272641,United States,1993,Finance Companies
+PMM,Putnam Managed Municipal Income Trust Common Stock,8.79,430219958,United States,1989,Investment Managers
+PMO,Putnam Municipal Opportunities Trust Common Stock,14.52,495529006,United States,1993,Finance Companies
 PMT,PennyMac Mortgage Investment Trust Common Shares of Beneficial Interest,17.8,1726719153,United States,2009,Real Estate Investment Trusts
 PMT^A,PennyMac Mortgage Investment Trust 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest,26.085,NA,United States,NA,
 PMT^B,PennyMac Mortgage Investment Trust 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest,25.84,NA,United States,NA,
@@ -2340,7 +2334,6 @@ PRT,PermRock Royalty Trust Trust Units,7.01,85281781,United States,2018,Oil & Ga
 PRTY,Party City Holdco Inc. Common Stock,5.63,631828906,United States,2015,Diversified Commercial Services
 PRU,Prudential Financial Inc. Common Stock,109.08,41232240000,United States,2001,Life Insurance
 PSA,Public Storage Common Stock,372.62,65340616147,United States,NA,Real Estate Investment Trusts
-PSA^E,Public Storage Depositary Shares Each Representing 1/1000 of a 4.90% Cumulative Preferred Share of Beneficial Interest Series E,25,NA,United States,NA,
 PSA^F,Public Storage Depositary Shares Each Representing 1/1000 of a 5.15% Cumulative Preferred Share of Beneficial Interest Series F par value $0.01 per share,25.44,NA,United States,NA,
 PSA^G,Public Storage Depositary Shares Each Representing 1/1000 of a 5.05% Cumulative Preferred Share of Beneficial Interest Series G,25.45,NA,United States,NA,
 PSA^H,Public Storage Depositary Shares Each Representing 1/1000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest Series H,26.98,NA,United States,NA,
@@ -2388,7 +2381,7 @@ PYT,PPlus Tr GSC-2 Tr Ctf Fltg Rate,24.5,0,United States,NA,
 PZC,PIMCO California Municipal Income Fund III Common Shares of Beneficial Interest,10.8,242060054,United States,2002,Investment Managers
 PZN,Pzena Investment Management Inc Class A Common Stock,9.71,700785168,United States,2007,Investment Managers
 QD,Qudian Inc. American Depositary Shares each representing one Class A Ordinary Share,0.95,240433788,China,2017,Computer Software: Prepackaged Software
-QFTA,Quantum FinTech Acquisition Corporation Common Stock,9.86,248040625,,2021,Business Services
+QFTA,Quantum FinTech Acquisition Corporation Common Stock,9.86,248040625,,2021,
 QGEN,Qiagen N.V. Common Shares,55.74,12671708640,Netherlands,NA,Biotechnology: Biological Products (No Diagnostic Substances)
 QS,QuantumScape Corporation Class A Common Stock,22.03,9309787677,United States,2020,Auto Parts:O.E.M.
 QSR,Restaurant Brands International Inc. Common Shares,60.39,19027185760,Canada,2014,
@@ -2519,7 +2512,7 @@ SAK,Saratoga Investment Corp 7.25% Notes due 2025,25.81,0,United States,2020,Fin
 SAM,Boston Beer Company Inc. (The) Common Stock,501.97,6165004791,United States,NA,Beverages (Production/Distribution)
 SAN,Banco Santander S.A. Sponsored ADR (Spain),3.29,56081569402,Spain,NA,Commercial Banks
 SAND,Sandstorm Gold Ltd. Ordinary Shares (Canada),6.07,1161998116,Canada,NA,
-SAP,SAP  SE ADS,140.04,165188290774,Germany,NA,EDP Services
+SAP,SAP  SE ADS,140.04,165188290774,Germany,NA,Computer Software: Prepackaged Software
 SAR,Saratoga Investment Corp New,29.51,335376163,United States,NA,Investment Managers
 SAVE,Spirit Airlines Inc. Common Stock,21.98,2382745900,United States,NA,Air Freight/Delivery Services
 SB,Safe Bulkers Inc Common Stock ($0.001 par value),3.68,447638288,Monaco,2008,Marine Transportation
@@ -2675,7 +2668,7 @@ SR^A,Spire Inc. Depositary Shares each representing a 1/1000th interest in a sha
 SRC,Spirit Realty Capital Inc. Common Stock,48.27,5952440923,United States,2013,Real Estate Investment Trusts
 SRC^A,Spirit Realty Capital Inc. 6.000% Series A Cumulative Redeemable Preferred Stock,25.61,NA,United States,NA,
 SRE,DBA Sempra Common Stock,131.45,41976909380,United States,NA,Oil/Gas Transmission
-SREA,DBA Sempra 5.750% Junior Subordinated Notes due 2079,26.99,0,United States,2019,Professional Services
+SREA,DBA Sempra 5.750% Junior Subordinated Notes due 2079,26.99,0,United States,2019,Natural Gas Distribution
 SRG,Seritage Growth Properties Class A Common Stock,13.09,571134306,United States,2015,Real Estate Investment Trusts
 SRG^A,Seritage Growth Properties 7.00% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest,23.6,NA,United States,NA,
 SRI,Stoneridge Inc. Common Stock,19.66,534328642,United States,1997,Auto Parts:O.E.M.
@@ -2696,7 +2689,7 @@ STAR^I,iStar Inc. Series I Cumulative Redeemable Preferred Stock,25.7167,NA,Unit
 STC,Stewart Information Services Corporation Common Stock,80.18,2156100736,United States,NA,Specialty Insurers
 STE,STERIS plc (Ireland) Ordinary Shares,242.32,24237573845,United States,NA,Industrial Specialties
 STEM,Stem Inc. Class A Common Stock,18.72,2704837150,United States,2020,Computer Software: Prepackaged Software
-STG,Sunlands Technology Group American Depositary Shares representing Class A ordinary shares,4.7,63254452,,2018,Other Consumer Services
+STG,Sunlands Technology Group American Depositary Shares representing Class A ordinary shares,4.7,63254452,,2018,Service to the Health Industry
 STK,Columbia Seligman Premium Technology Growth Fund Inc,37.38,595029456,United States,2009,Investment Managers
 STL,Sterling Bancorp,26.14,5037198049,United States,NA,Major Banks
 STL^A,Sterling Bancorp Depositary Shares each representing ownership of a 1/40th interest in a share of 6.50% Non-Cumulative Perpetual Preferred Stock Series A,25.8,NA,United States,NA,
@@ -2744,7 +2737,7 @@ T^C,AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share
 TAC,TransAlta Corporation Ordinary Shares,10.95,2967450000,Canada,NA,Electric Utilities: Central
 TACA,Trepont Acquisition Corp I Class A Ordinary Shares,9.98,286925000,United States,2021,Business Services
 TAK,Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock),13.69,42646501274,,2018,Biotechnology: Pharmaceutical Preparations
-TAL,TAL Education Group American Depositary Shares,3.44,2218390523,China,NA,Other Consumer Services
+TAL,TAL Education Group American Depositary Shares,3.44,2218390523,China,NA,Service to the Health Industry
 TALO,Talos Energy Inc. Common Stock,10.02,820452400,,2018,Oil & Gas Production
 TAP,Molson Coors Beverage Company Class B Common Stock,45.95,9969764010,Canada,NA,Beverages (Production/Distribution)
 TARO,Taro Pharmaceutical Industries Ltd. Ordinary Shares,47.6,1789040812,Israel,NA,Biotechnology: Pharmaceutical Preparations
@@ -2769,7 +2762,7 @@ TEAF,Ecofin Sustainable and Social Impact Term Fund,14.37,193867495,,2019,Trusts
 TECK,Teck Resources Ltd Ordinary Shares,28.6,15249520000,Canada,NA,
 TEF,Telefonica SA Common Stock,4.39,25029520840,Spain,1988,Telecommunications Equipment
 TEI,Templeton Emerging Markets Income Fund Inc. Common Stock,7.18,344628641,United States,1993,Finance Companies
-TEL,TE Connectivity Ltd. New Switzerland Registered Shares,162.43,53003078253,Switzerland,NA,Industrial Machinery/Components
+TEL,TE Connectivity Ltd. New Switzerland Registered Shares,162.43,53003078253,Switzerland,NA,Electronic Components
 TEN,Tenneco Inc. Class A Voting Common Stock,11.23,922130529,United States,NA,Auto Parts:O.E.M.
 TEO,Telecom Argentina SA,5.18,2231220778,Argentina,NA,Telecommunications Equipment
 TEVA,Teva Pharmaceutical Industries Limited American Depositary Shares,8.43,9298350426,Israel,NA,Biotechnology: Pharmaceutical Preparations
@@ -2840,7 +2833,7 @@ TPZ,Tortoise Power and Energy Infrastructure Fund Inc Common Stock,13.21,8626130
 TR,Tootsie Roll Industries Inc. Common Stock,36.61,2454364640,United States,NA,Specialty Foods
 TRAQ,Trine II Acquisition Corp. Class A Ordinary Shares,9.84,0,,2021,
 TRC,Tejon Ranch Co Common Stock,18.78,495033495,United States,NA,Major Banks
-TREB,Trebia Acquisition Corp. Class A Ordinary Shares,9.96,644287500,United States,2020,Computer Software: Programming Data Processing
+TREB,Trebia Acquisition Corp. Class A Ordinary Shares,9.96,644287500,United States,2020,Business Services
 TREC,Trecora Resources Common Stock,8.08,197171327,United States,NA,
 TREX,Trex Company Inc. Common Stock,134.36,15467136378,United States,NA,
 TRGP,Targa Resources Inc. Common Stock,51.94,11892791656,United States,2010,Natural Gas Distribution
@@ -2870,7 +2863,7 @@ TSM,Taiwan Semiconductor Manufacturing Company Ltd.,121.41,629641487160,Taiwan,1
 TSN,Tyson Foods Inc. Common Stock,86.42,31377483958,United States,NA,Meat/Poultry/Fish
 TSPQ,TCW Special Purpose Acquisition Corp. Class A Common Stock,9.72,563678585,,2021,
 TSQ,Townsquare Media Inc. Class A Common Stock,12.66,211930704,United States,2014,Advertising
-TT,Trane Technologies plc,202.51,48104261447,Ireland,NA,Industrial Machinery/Components
+TT,Trane Technologies plc,202.51,48104261447,Ireland,NA,Auto Parts:O.E.M.
 TTC,Toro Company (The) Common Stock,100.25,10474724407,United States,NA,Tools/Hardware
 TTE,TotalEnergies SE,50.97,132965333186,France,NA,Oil & Gas Production
 TTI,Tetra Technologies Inc. Common Stock,2.73,346547303,United States,NA,Oil & Gas Production
@@ -3039,7 +3032,6 @@ WAL,Western Alliance Bancorporation Common Stock (DE),108.04,11257948751,United 
 WAL^A,Western Alliance Bancorporation Depositary Shares Each Representing a 1/400th Interest in a Share of 4.250% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series A,26.2,NA,United States,NA,
 WARR,Warrior Technologies Acquisition Company Class A Common Stock,9.82,338790000,,2021,
 WAT,Waters Corporation Common Stock,370.82,22633469271,United States,1995,Medical Specialities
-WAVC,Waverley Capital Acquisition Corp. 1 Class A Ordinary Shares,9.72,261067526,,2021,
 WBK,Westpac Banking Corporation Common Stock,15.48,56736189846,Australia,NA,Commercial Banks
 WBS,Webster Financial Corporation Common Stock,56.71,5137283476,United States,NA,Major Banks
 WBS^F,Webster Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 5.25% Series F Non-Cumulative Perpetual Preferred Stock,25.7536,NA,United States,NA,
@@ -3146,7 +3138,7 @@ YEXT,Yext Inc. Common Stock,10.12,1312595554,United States,2017,EDP Services
 YMM,Full Truck Alliance Co. Ltd. American Depositary Shares (each representing 20 Class A Ordinary Shares),8.15,8849642471,,2021,
 YOU,Clear Secure Inc. Class A Common Stock,31.57,2377558799,,2021,Computer Software: Prepackaged Software
 YPF,YPF Sociedad Anonima Common Stock,3.99,1569318044,Argentina,1993,Integrated oil Companies
-YRD,Yiren Digital Ltd. American Depositary Shares each representing two ordinary shares,2.63,220877986,China,2015,Diversified Financial Services
+YRD,Yiren Digital Ltd. American Depositary Shares each representing two ordinary shares,2.63,220877986,China,2015,Internet and Information Services
 YSG,Yatsen Holding Limited American Depositary Shares each representing four Class A ordinary shares,1.8,1136904199,China,2020,Package Goods/Cosmetics
 YTPG,TPG Pace Beneficial II Corp. Class A Ordinary Shares,9.79,531923330,,2021,Business Services
 YUM,Yum! Brands Inc.,138.66,40645836062,United States,NA,Restaurants
