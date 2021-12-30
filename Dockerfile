@@ -8,7 +8,7 @@ USER root
 
 # Install jupyter R kernel
 RUN install2.r --skipinstalled --error  --ncpus 3 --deps TRUE -l $R_LIBS_SITE   \
-    tidyquant 
+    tidyquant arrow
     
 # Run as NB_USER ============================================================
 
