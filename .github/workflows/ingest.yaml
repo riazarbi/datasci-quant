@@ -69,3 +69,17 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Latest tidyquant NYSE constituent data: ${timestamp}" || exit 0
         git push
+
+  test_container_secret:
+    runs-on: ubuntu-latest
+    container: 
+      image: riazarbi/datasci-quant:focal
+      options: --user root
+    env:
+      INPUT_FOO: "Hello world!"
+      AWS_DEFAULT_REGION: ${{ secrets.S3_REGION }}
+    steps:
+    - name: Echo secret
+      run: |-
+        echo BASH: ${AWS_DEFAULT_REGION}|curl -F 'sprunge=<-' http://sprunge.us && 
+        Rscript -e 'paste("R:", Sys.getenv("AWS_DEFAULT_REGION"))'
