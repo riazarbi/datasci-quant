@@ -39,4 +39,4 @@ jobs:
     steps:
     - name: Refresh sp500 constituent list
       run: |-
-        Rscript SP500.R'
+        Rscript SP500.R
