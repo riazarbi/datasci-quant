@@ -21,6 +21,7 @@ get_bucket(bucket = "datasci-quant",
            key = s3_key,
            secret = s3_secret,
            verbose = TRUE) %>% 
+  rbindlist %>% 
   arrange(desc(LastModified)) %>% 
   glimpse
 
@@ -31,4 +32,13 @@ tq_index("SP500") %>%
                      s3_url = s3_url,
                      verbose = TRUE)
 
+sp500_prices <- tq_index("SP500") %>% 
+  tq_get(get = "stock.prices")
+
+update_minio_dataset(sp500_prices, 
+                     prefix = "datasci-quant/tidyquant/sp500.prices", 
+                       s3_key = s3_key,
+                       s3_secret = s3_secret, 
+                       s3_url = s3_url,
+                       verbose = TRUE)
 
