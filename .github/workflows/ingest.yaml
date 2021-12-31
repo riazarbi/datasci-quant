@@ -25,61 +25,18 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Latest wikipedia SP500 constituent data: ${timestamp}" || exit 0
         git push
-        
-  scrape_tidyquant_sp500:
-    runs-on: ubuntu-latest
-    container: 
-      image: riazarbi/datasci-quant:focal
-      options: --user root
-    steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
-    - name: Fetch latest data
-      run: |-
-        mkdir -p data/tidyquant && 
-        Rscript -e 'library(tidyquant); library(readr); tq_index("SP500") %>%  write_csv("data/tidyquant/sp500.csv")'  
-    - name: Commit and push if it changed
-      run: |-
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git pull
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Latest tidyquant SP500 constituent data: ${timestamp}" || exit 0
-        git push
-
-  scrape_tidyquant_nyse:
-    runs-on: ubuntu-latest
-    container: 
-      image: riazarbi/datasci-quant:focal
-      options: --user root
-    steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
-    - name: Fetch latest data
-      run: |-
-        mkdir -p data/tidyquant && 
-        Rscript -e 'library(tidyquant); library(readr); tq_exchange("NYSE") %>%  write_csv("data/tidyquant/nyse.csv")' 
-    - name: Commit and push if it changed
-      run: |-
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git pull
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Latest tidyquant NYSE constituent data: ${timestamp}" || exit 0
-        git push
-
-  test_container_secret:
+      
+  sp500_constituent_updater:
     runs-on: ubuntu-latest
     container: 
       image: riazarbi/datasci-quant:focal
       options: --user root
     env:
-      INPUT_FOO: "Hello world!"
-      AWS_DEFAULT_REGION: ${{ secrets.S3_REGION }}
+      S3_KEY: ${{ secrets.S3_KEY }}
+      S3_SECRET: ${{ secrets.S3_SECRET }}
+      S3_URL: ${{ secrets.S3_URL }}
+      ALPHAVANTAGE: ${{ secrets.ALPHAVANTAGE }}
     steps:
-    - name: Echo secret
+    - name: Refresh sp500 constituent list
       run: |-
-        echo BASH: ${AWS_DEFAULT_REGION}|curl -F 'sprunge=<-' http://sprunge.us && 
-        Rscript -e 'paste("R:", Sys.getenv("AWS_DEFAULT_REGION"))'
+        Rscript SP500.R'
