@@ -1,7 +1,6 @@
-name: Scrape latest data
+name: Scrape S&P 500 constituents
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     - cron:  '36 */6 * * *'
