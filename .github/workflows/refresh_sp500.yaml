@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
-    - name: Fetch latest data
+    - name: Fetch wikipedia page
       run: |-
         mkdir -p data/wikipedia &&
         curl https://en.wikipedia.org/api/rest_v1/page/html/List_of_S%26P_500_companies  > data/wikipedia/sp500.html
@@ -26,7 +26,7 @@ jobs:
         git commit -m "Latest wikipedia SP500 constituent data: ${timestamp}" || exit 0
         git push
       
-  sp500_constituent_updater:
+  scrape_tidyquant:
     runs-on: ubuntu-latest
     container: 
       image: riazarbi/datasci-quant:focal
@@ -37,6 +37,8 @@ jobs:
       S3_URL: ${{ secrets.S3_URL }}
       ALPHAVANTAGE: ${{ secrets.ALPHAVANTAGE }}
     steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
     - name: Refresh sp500 constituent list
       run: |-
         Rscript SP500.R
