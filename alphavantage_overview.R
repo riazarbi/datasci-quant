@@ -52,10 +52,4 @@ bind_rows(overview, old_overview) %>%
                        s3_url = s3_url,
                        verbose = TRUE)
 
-# json_query <- httr::GET(paste0("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=",stock,"&apikey=",alphavantage_key)) 
-# content <- httr::content(json_query)
-# daily_prices <- content$`Time Series (Daily)`
-# daily_price_df <- bind_rows(daily_prices)
-# daily_price_df$date <- as_date(names(daily_prices))
-# daily_price_df
 

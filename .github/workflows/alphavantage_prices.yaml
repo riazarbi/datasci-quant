@@ -1,0 +1,42 @@
+name: Update alphavantage overview dataset
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '5 11 * * *'
+
+jobs:
+      
+  update_prices:
+    runs-on: ubuntu-latest
+    container: 
+      image: riazarbi/datasci-quant:focal
+      options: --user root
+    env:
+      S3_KEY: ${{ secrets.S3_KEY }}
+      S3_SECRET: ${{ secrets.S3_SECRET }}
+      S3_URL: ${{ secrets.S3_URL }}
+      ALPHAVANTAGE: ${{ secrets.ALPHAVANTAGE }}
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Update alphavantage prices
+      run: |-
+        Rscript alphavantage_prices.R
+
+  update_prices_adjusted:
+    runs-on: ubuntu-latest
+    container: 
+      image: riazarbi/datasci-quant:focal
+      options: --user root
+    env:
+      S3_KEY: ${{ secrets.S3_KEY }}
+      S3_SECRET: ${{ secrets.S3_SECRET }}
+      S3_URL: ${{ secrets.S3_URL }}
+      ALPHAVANTAGE: ${{ secrets.ALPHAVANTAGE }}
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Update alphavantage prices adjusted
+      run: |-
+        Rscript alphavantage_prices_adjusted.R
