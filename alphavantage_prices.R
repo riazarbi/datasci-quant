@@ -21,7 +21,7 @@ sp500 <- retrieve_dataset("datasci-quant/tidyquant/sp500",
                           s3_secret = s3_secret,
                           s3_url = s3_url)
 
-stocks <- sample(sp500$symbol, length(sp500))
+stocks <- sample(sp500$symbol, nrow(sp500))
 
 for (i in seq_along(1:length(stocks))) {
   stock <- stocks[i]

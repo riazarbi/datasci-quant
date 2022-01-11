@@ -21,7 +21,7 @@ sp500 <- retrieve_dataset("datasci-quant/tidyquant/sp500",
                           s3_secret = s3_secret,
                           s3_url = s3_url)
 
-stocks <- sample(sp500$symbol, length(sp500))
+stocks <- sample(sp500$symbol, nrow(sp500))
 
 stocklist <- list()
 
@@ -29,11 +29,13 @@ for (i in seq_along(1:length(stocks))) {
   stock <- stocks[i]
   json_query <- httr::GET(paste0("https://www.alphavantage.co/query?function=OVERVIEW&symbol=",stock,"&apikey=",alphavantage_key)) 
   content <- httr::content(json_query)
-  stocklist[[i]] <- as_tibble(content) %>% mutate(ver = 2)
+  stocklist[[i]] <- as_tibble(content) %>% mutate(ver = 2, 
+                                                  date_retrieved = today())
   Sys.sleep(5)
 }
 
-overview <- rbindlist(stocklist)
+# This drops 0 row stocks (i.e there is no overview)
+overview <- rbindlist(stocklist[lapply(stocklist, nrow) != 0])
 
 old_overview <- retrieve_dataset("datasci-quant/alphavantage/overview", 
                                  s3_key = s3_key,
