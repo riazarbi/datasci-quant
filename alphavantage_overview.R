@@ -21,7 +21,7 @@ sp500 <- retrieve_dataset("datasci-quant/tidyquant/sp500",
                           s3_secret = s3_secret,
                           s3_url = s3_url)
 
-stocks <- sample(sp500$symbol, 5)
+stocks <- sp500$symbol
 
 stocklist <- list()
 
@@ -30,6 +30,7 @@ for (i in seq_along(1:length(stocks))) {
   json_query <- httr::GET(paste0("https://www.alphavantage.co/query?function=OVERVIEW&symbol=",stock,"&apikey=",alphavantage_key)) 
   content <- httr::content(json_query)
   stocklist[[i]] <- as_tibble(content) %>% mutate(ver = 2)
+  Sys.sleep(1)
 }
 
 overview <- rbindlist(stocklist)
