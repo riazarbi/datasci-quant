@@ -57,5 +57,5 @@ for (i in seq_along(1:length(stocks))) {
     
     
   }
-  Sys.sleep(15)
+  Sys.sleep(5)
 }

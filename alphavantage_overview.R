@@ -30,7 +30,7 @@ for (i in seq_along(1:length(stocks))) {
   json_query <- httr::GET(paste0("https://www.alphavantage.co/query?function=OVERVIEW&symbol=",stock,"&apikey=",alphavantage_key)) 
   content <- httr::content(json_query)
   stocklist[[i]] <- as_tibble(content) %>% mutate(ver = 2)
-  Sys.sleep(1)
+  Sys.sleep(5)
 }
 
 overview <- rbindlist(stocklist)
