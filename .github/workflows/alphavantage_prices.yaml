@@ -1,4 +1,4 @@
-name: Update alphavantage overview dataset
+name: Update alphavantage prices datasets
 
 on:
   workflow_dispatch:
