@@ -3,7 +3,7 @@ name: Update alphavantage overview dataset
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '35 */6 * * *'
+    - cron:  '0 7 * * *'
 
 jobs:
       
