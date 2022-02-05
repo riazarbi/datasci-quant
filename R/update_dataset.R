@@ -224,18 +224,18 @@ update_minio_dataset <- function(new_df,
     if (verbose) {
       message("Writing diffs...")
     }
-    put_diff(diff_tables$new_rows, "create", write_timestamp)
-    put_diff(diff_tables$modified_rows, "update", write_timestamp)
-    put_diff(diff_tables$deleted_rows, "delete", write_timestamp)
+    purrr::insistently(put_diff(diff_tables$new_rows, "create", write_timestamp))
+    purrr::insistently(put_diff(diff_tables$modified_rows, "update", write_timestamp))
+    purrr::insistently(put_diff(diff_tables$deleted_rows, "delete", write_timestamp))
 
     if (verbose) {
       message("Writing new dataset...")
     }
-    write_parquet(new_df,
+    purrr::insistently(write_parquet(new_df,
                   dataset_prefix$path(
                       "latest/data-01.parquet"
                     )
-                  )
+                  ))
     return(TRUE)
   }
 }
