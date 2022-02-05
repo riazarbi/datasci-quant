@@ -100,8 +100,8 @@ update_minio_dataset <- function(new_df,
   }
 
   old_df <- tryCatch({
-    purrr::insistently(open_dataset(dataset_prefix$path("latest")) %>%
-      collect())
+    purrr::insistently(open_dataset(dataset_prefix$path("latest"))) %>%
+      purrr::insistently(collect())
   }, error = function(error_condition) {
     NA
   })
