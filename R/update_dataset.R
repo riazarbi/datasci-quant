@@ -100,8 +100,7 @@ update_minio_dataset <- function(new_df,
   }
 
   old_df <- tryCatch({
-    open_dataset(dataset_prefix$path("latest")) %>%
-      collect()
+      insistently_collect(open_dataset(dataset_prefix$path("latest")))
   }, error = function(error_condition) {
     NA
   })
@@ -132,7 +131,8 @@ update_minio_dataset <- function(new_df,
         mutate(timestamp = with_tz(write_timestamp, tzone = "UTC"),
                operation = operation) %>%
         select(timestamp, everything(), operation)
-      write_parquet(df,
+      
+      insistently_write_parquet(df,
                     dataset_prefix$path(
                       paste0(
                         "history/",
@@ -214,7 +214,7 @@ update_minio_dataset <- function(new_df,
              delete = .data$deleted_rows) %>%
       select(.data$timestamp, everything())
 
-    write_csv_arrow(diff_counts_df,
+    insistently_write_csv_arrow(diff_counts_df,
                     dataset_prefix$path(paste0(
                       "diff_stats/",
                       as.numeric(write_timestamp),
@@ -231,7 +231,7 @@ update_minio_dataset <- function(new_df,
     if (verbose) {
       message("Writing new dataset...")
     }
-    write_parquet(new_df,
+    insistently_write_parquet(new_df,
                   dataset_prefix$path(
                       "latest/data-01.parquet"
                     )
