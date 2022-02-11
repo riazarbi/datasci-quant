@@ -12,7 +12,7 @@ ENV LIBARROW_MINIMAL=false
 
 # Install jupyter R kernel
 RUN install2.r --skipinstalled --error  --ncpus 3 --deps TRUE -l $R_LIBS_SITE   \
-    tidyquant arrow purrr dummies
+    tidyquant arrow purrr dummies caret
     
 # Run as NB_USER ============================================================
 
