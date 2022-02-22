@@ -26,6 +26,7 @@ if [ -n "$folder" ]; then
     docker run -it --rm \
     --name=$folder \
     -v /home/$USER/projects/$folder:/home/jovyan/$folder \
+    -v /home/$USER/projects/lofi-portfolio:/home/jovyan/lofi-portfolio \
     -v /home/$USER/projects/secrets.json:/home/jovyan/secrets.json: \
     -e NB_UID=$UID \
     -p 8888:8888 \
