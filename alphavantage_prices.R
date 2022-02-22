@@ -7,6 +7,7 @@ library(janitor)
 library(data.table)
 library(dplyr)
 library(httr)
+library(purrr)
 
 files.sources = list.files("R", full.names = T)
 sapply(files.sources, source)
@@ -34,7 +35,7 @@ for (i in seq_along(1:length(stocks))) {
   if(!is.null(time_series_list)) {
     time_series <- rbindlist(time_series_list, idcol = "date")
     
-    update_minio_dataset(time_series, 
+    update_minio_dataset(new_df = time_series, 
                          prefix = paste0("datasci-quant/alphavantage/prices/",
                                          stock), 
                          key_cols = "date",

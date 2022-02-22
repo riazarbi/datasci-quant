@@ -6,6 +6,7 @@ library(arrow)
 library(janitor)
 library(data.table)
 library(dplyr)
+library(purrr)
 
 files.sources = list.files("R", full.names = T)
 sapply(files.sources, source)
