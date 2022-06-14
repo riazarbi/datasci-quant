@@ -12,7 +12,7 @@ if(Sys.getenv("S3_SECRET") == "") {
   Sys.setenv(S3_SECRET = secrets$aws_datasci_quant$aws_secret_key)
 }
 if(Sys.getenv("S3_URL") == "") {
-  Sys.setenv(S3_URL = "eu-central-1.s3.amazonaws.com")
+  Sys.setenv(S3_URL = "us-east-1.s3.amazonaws.com")
 }
 if(Sys.getenv("ALPHAVANTAGE") == "") {
   Sys.setenv(ALPHAVANTAGE = secrets$alphavantage)
