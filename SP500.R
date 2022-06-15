@@ -17,7 +17,7 @@ alphavantage_key = Sys.getenv("ALPHAVANTAGE")
 av_api_key(alphavantage_key)
 
 get_bucket(bucket = "datasci-quant",
-           region = "eu-central-1",
+           region = "us-east-1",
            key = s3_key,
            secret = s3_secret,
            verbose = TRUE) %>% 
