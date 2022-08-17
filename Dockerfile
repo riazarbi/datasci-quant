@@ -1,4 +1,4 @@
-FROM riazarbi/datasci-gui-minimal:20220420203354
+FROM riazarbi/datasci-gui-minimal:20220801131822
 
 LABEL authors="Riaz Arbi"
 
@@ -7,13 +7,15 @@ LABEL authors="Riaz Arbi"
 USER root
 
 # For arrow to install bindings
-ENV LIBARROW_DOWNLOAD=true
-ENV LIBARROW_MINIMAL=false
+ENV NOT_CRAN=true
 
 # Install jupyter R kernel
 RUN install2.r --skipinstalled --error  --ncpus 3 --deps TRUE -l $R_LIBS_SITE   \
-    tidyquant arrow purrr dummies caret
-    
+    tidyquant arrow purrr caret diffdfs leaps
+
+RUN R -e "remotes::install_github('riazarbi/r-dummies', dependencies = TRUE)"
+RUN R -e "remotes::install_github('riazarbi/dataversionr', dependencies = TRUE)" 
+
 # Run as NB_USER ============================================================
 
 USER $NB_USER
