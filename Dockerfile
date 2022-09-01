@@ -14,7 +14,7 @@ RUN install2.r --skipinstalled --error  --ncpus 3 --deps TRUE -l $R_LIBS_SITE   
     tidyquant arrow purrr caret diffdfs leaps
 
 RUN R -e "remotes::install_github('riazarbi/r-dummies', dependencies = TRUE)"
-RUN R -e "remotes::install_github('riazarbi/dataversionr', dependencies = TRUE)" 
+RUN R -e "remotes::install_github('riazarbi/dataversionr', dependencies = TRUE, ref = '0.9.1')" 
 
 # Run as NB_USER ============================================================
 
