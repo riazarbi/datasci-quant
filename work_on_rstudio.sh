@@ -6,13 +6,13 @@ IMAGE=riazarbi/datasci-quant:20220817142717
 
 docker pull $IMAGE
 
-echo "Starting disposable container mounted on /home/$USER/projects/$folder"
+echo "Starting disposable container mounted on /data/projects/$folder"
     docker run -it --rm \
     --name=$folder \
-    -v /home/$USER/projects/$folder:/home/jovyan/$folder \
-    -v /home/$USER/projects/lofi-portfolio:/home/jovyan/lofi-portfolio \
+    -v /data/projects/$folder:/home/jovyan/$folder \
+    -v /data/projects/lofi-portfolio:/home/jovyan/lofi-portfolio \
     -v /data/quant:/data/quant \
-    -v /home/$USER/projects/secrets.json:/home/jovyan/secrets.json: \
+    -v /data/projects/secrets.json:/home/jovyan/secrets.json: \
     -v /tmp:/tmp \
     -e NB_UID=$UID \
     -p 8888:8888 \
