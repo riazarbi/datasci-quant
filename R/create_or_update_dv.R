@@ -8,6 +8,6 @@ create_or_update_dv <- function(df, destination, key_cols, diffed = TRUE, backup
               key_cols = key_cols, 
               diffed = diffed, 
               backup_count = backup_count)
-    return(create)
+    return(TRUE)
   }
 }
