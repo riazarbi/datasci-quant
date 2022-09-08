@@ -1,7 +1,6 @@
 suppressMessages({
   library(httr)
   library(dplyr)
-
   source("set_env.R")
   source_funs <- sapply(list.files("R", full.names = TRUE), source, .GlobalEnv)
 })
@@ -35,9 +34,7 @@ update <- create_or_update_dv(listed,
 
 if(update) {
   message("Updated")
-  quit(save = "no", status = 0)
 } else {
   message("No new data")
-  quit(save = "no", status = 0)
 }
 

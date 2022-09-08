@@ -10,7 +10,7 @@ The ultimate objective is to create investment portfolios that outperform the S&
 2. An alphavantage API key - you can get a free one, but most of this code only really works well with a 75 calls/minute premium API key.
 3. An AWS S3 bucket with the relevant permissions to push and pull data. You could use any S3 compatible object store, such as minio.
 
-## Reproducibile Environment
+## Reproducible Environment
 
 The code in this repository runs on the docker image generated from the `Dockerfile`, which is built on top of `riazarbi/datasci-gui-minimal`. It's pretty simple, and merely adds R and python libs for quantitative financial analysis.
 
