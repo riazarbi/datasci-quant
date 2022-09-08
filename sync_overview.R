@@ -10,11 +10,12 @@ suppressMessages({
   
 })
 
-
+# Parameters
 alphavantage_key = Sys.getenv("ALPHAVANTAGE")
 rate_limit <- 75
 rate_limit_seconds <- 60
 
+# Get a list of stocks
 sp500 <- get_diffs(fix_path("tidyquant/sp500", dest))
 stocks <- unique(sp500$symbol)
 stocks <- sample(stocks, length(stocks))
@@ -23,18 +24,21 @@ stocks <- sample(stocks, length(stocks))
 stocks <- str_replace_all(stocks, pattern = "[.]", "-")
 sequential_delay <- rate_limit_seconds/rate_limit 
 
+# Query overview API for each stoc in the list (takes awhile)
 queries <- map(stocks, ~ query_overview(.x, alphavantage_key, sequential_delay))
 names(queries) <- stocks
 
-# Get a list of exit code 1, create error report
+
+# These are the failed stocks
 failed <- discard(queries, ~ .x$exit_code == 0)
 
-# Get list of exit code 2, create dv, update
+# These are the successful stocks
 successful <- keep(queries, ~ .x$exit_code == 0)
 overview <- as_tibble(rbindlist(map(successful, ~ .x$overview))) %>% 
   mutate(ver = 2,
-         date_retrieved = today())
+         date_retrieved = lubridate::today())
 
+# For the successful ones, update the overview dataset
 old_overview <- read_dv(fix_path("alphavantage/overview", dest)) %>%
   mutate(ver = 1)
 
@@ -45,4 +49,6 @@ bind_rows(overview, old_overview) %>%
   select(-ver) %>%
   update_dv(fix_path("alphavantage/overview", dest))
 
+message("FAILED QUERIES:")
 
+rbindlist(map(failed, ~ dplyr::as_tibble(.x)), idcol = "symbol")

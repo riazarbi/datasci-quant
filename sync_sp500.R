@@ -2,7 +2,6 @@ suppressMessages({
   library(tidyquant)
   library(dplyr)
   library(dataversionr)
-  
   source("set_env.R")
 })
 
