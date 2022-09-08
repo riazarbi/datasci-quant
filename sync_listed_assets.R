@@ -1,6 +1,7 @@
 suppressMessages({
   library(httr)
   library(dplyr)
+  library(dataversionr)
   source("set_env.R")
   source_funs <- sapply(list.files("R", full.names = TRUE), source, .GlobalEnv)
 })
