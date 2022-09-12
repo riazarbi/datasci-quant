@@ -20,7 +20,6 @@ alphavantage_key = Sys.getenv("ALPHAVANTAGE")
 stock <- toupper(args[1])
 report <- tolower(args[2])
 
-
 result <- query_fundamentals(stock, report, alphavantage_key)
 
 if(result$exit_code == 1) {
@@ -36,8 +35,6 @@ if(result$exit_code == 1) {
 
 if(update) {
   message("Updated")
-  quit(save = "no", status = 0)
 } else {
   message("No new data")
-  quit(save = "no", status = 0)
 }

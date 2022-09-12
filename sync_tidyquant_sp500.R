@@ -10,10 +10,8 @@ update <- tq_index("SP500") %>%
 
 if(update) {
   message("Updated")
-  quit(save = "no", status = 0)
 } else {
   message("No new data")
-  quit(save = "no", status = 0)
 }
 
 
