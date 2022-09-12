@@ -39,8 +39,9 @@ if(result$exit_code == 1) {
   print(result)
   quit(save = "no", status = 1)
 } else {
-  update <- update_dv(result$prices, 
-            fix_path(paste0("alphavantage/",report,"/", stock), dest))
+  update <- create_or_update_dv(result$prices, 
+            fix_path(paste0("alphavantage/",report,"/", stock), dest),
+            key_cols = "date")
 }
 
 if(update) {
@@ -50,12 +51,3 @@ if(update) {
   message("No new data")
   quit(save = "no", status = 0)
 }
-
-
-
-
-# 
-# p <- query_prices(stock, "time_series_daily", alphavantage_key)
-# pa <- query_prices(stock, "time_series_daily_adjusted", alphavantage_key)
-# 
-# 

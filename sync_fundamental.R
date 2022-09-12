@@ -26,10 +26,12 @@ if(result$exit_code == 1) {
   print(result)
   quit(save = "no", status = 1)
 } else {
-  updatea <- update_dv(result$annual_reports, 
-            fix_path(paste0("alphavantage/annual_reports/",report,"/", stock), dest))
-  updateq <- update_dv(result$quarterly_reports, 
-                       fix_path(paste0("alphavantage/quarterly_reports/",report,"/", stock), dest))
+  updatea <- create_or_update_dv(result$annual_reports, 
+            fix_path(paste0("alphavantage/annual_reports/",report,"/", stock), dest),
+            key_cols = "fiscalDateEnding")
+  updateq <- create_or_update_dv(result$quarterly_reports, 
+                       fix_path(paste0("alphavantage/quarterly_reports/",report,"/", stock), dest),
+                       key_cols = "fiscalDateEnding")
   update <- (updateq | updateq)
 }
 
