@@ -11,7 +11,7 @@ suppressMessages({
 
 get_diffs(fix_path("tidyquant/sp500/", dest)) %>% 
   pull(symbol) %>% 
-  unique %>% .[1:10] %>% 
+  unique %>%  
   str_replace_all(pattern = "[.]", "-") %>%
   jsonlite::toJSON() %>% 
   write(stdout())
