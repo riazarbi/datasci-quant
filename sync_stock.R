@@ -2,7 +2,7 @@
 args = commandArgs(trailingOnly = TRUE)
 
 # test if there is at least one argument: if not, return an error
-if (length(args) != 2) {
+if (length(args) != 1) {
   stop("Incorrect number of arguments supplied", call. = FALSE)
 }
 
