@@ -16,8 +16,8 @@ rate_limit <- 75
 rate_limit_seconds <- 60
 
 # Get a list of stocks
-sp500 <- get_diffs(fix_path("tidyquant/sp500", dest))
-stocks <- unique(sp500$symbol)
+stocks <- read_dv(fix_path("alphavantage/listed_assets/", dest)) 
+stocks <- unique(stocks$symbol)
 stocks <- sample(stocks, length(stocks))
 
 # for name compat between sp500 dataset and alphavantage dataset

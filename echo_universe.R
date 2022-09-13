@@ -8,10 +8,10 @@ suppressMessages({
   source_funs <- sapply(list.files("R", full.names = TRUE), source, .GlobalEnv)
 })
 
-
-get_diffs(fix_path("tidyquant/sp500/", dest)) %>% 
-  pull(symbol) %>% 
+read_dv(fix_path("alphavantage/listed_assets/", dest)) %>% 
+  pull(symbol) %>%
   unique %>%  
-  str_replace_all(pattern = "[.]", "-") %>%
+  sample(length(.)) %>%
   jsonlite::toJSON() %>% 
   write(stdout())
+
