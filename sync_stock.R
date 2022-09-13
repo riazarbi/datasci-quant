@@ -19,6 +19,8 @@ suppressMessages({
 alphavantage_key = Sys.getenv("ALPHAVANTAGE")
 
 stock <- toupper(args[1])
+
+## FUNDAMENTALS ##
 reports <- list_fundamental_reports()
 
 for (report in reports) {
@@ -52,13 +54,13 @@ for (report in reports) {
 }
 
 
+## PRICES ##
 reports <- list_price_reports()
 
 for (report in reports) {
   message(paste(stock, report))
   
   result <- query_prices(stock, report, alphavantage_key)
-  
   
   if (report == "time_series_daily") {
     path <- "prices"
@@ -67,8 +69,6 @@ for (report in reports) {
   if (report == "time_series_daily_adjusted") {
     path <- "prices_adjusted"
   }
-  
-  
   
   if (result$exit_code == 1) {
     print(result)
