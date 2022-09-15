@@ -8,7 +8,9 @@ make_batch_set <- function(dest, batch_size = 500) {
   refresh_history <- read_dv(fix_path("alphavantage/overview", dest))
   refresh_history <- refresh_history %>% select(Symbol, date_retrieved)
   
+  # listed assets which don't appear in the overview
   not_captured <- stocks[!(stocks %in% refresh_history$Symbol)]
+  # overview stocks which are listed arranged by staleness
   captured_listed <- refresh_history %>% filter(Symbol %in% stocks) %>% arrange(date_retrieved) %>% pull(Symbol)
   
   if(length(not_captured) >= batch_size){
