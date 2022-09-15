@@ -15,20 +15,15 @@ alphavantage_key = Sys.getenv("ALPHAVANTAGE")
 rate_limit <- 75
 rate_limit_seconds <- 60
 
-# Get a list of stocks
-stocks <- read_dv(fix_path("alphavantage/listed_assets/", dest)) 
-stocks <- unique(stocks$symbol)
-#stocks <- sample(stocks, length(stocks))
-stocks <- sample(stocks, 500)
+# Get list of stocks
+stocks <- read_dv(fix_path("alphavantage/batch_set", dest)) %>% pull(stock)
 
-# for name compat between sp500 dataset and alphavantage dataset
-#stocks <- str_replace_all(stocks, pattern = "[.]", "-")
+# Compute sequential delay
 sequential_delay <- rate_limit_seconds/rate_limit 
 
 # Query overview API for each stoc in the list (takes awhile)
 queries <- map(stocks, ~ query_overview(.x, alphavantage_key, sequential_delay))
 names(queries) <- stocks
-
 
 # These are the failed stocks
 failed <- discard(queries, ~ .x$exit_code == 0)

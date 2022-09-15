@@ -8,11 +8,8 @@ suppressMessages({
   source_funs <- sapply(list.files("R", full.names = TRUE), source, .GlobalEnv)
 })
 
-read_dv(fix_path("alphavantage/listed_assets/", dest)) %>% 
-  pull(symbol) %>%
-  unique %>%  
-  sample(500) %>%
-#  sample(length(.)) %>%
+read_dv(fix_path("alphavantage/batch_set", dest)) %>% 
+  pull(stock) %>%
   jsonlite::toJSON() %>% 
   write(stdout())
 
