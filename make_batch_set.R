@@ -11,7 +11,7 @@ suppressMessages({
 })
 
 # Parameters
-batch_size <- 20
+batch_size <- 100
 
 # Get list of stocks
 #stocks <- make_batch_set(dest, batch_size)
