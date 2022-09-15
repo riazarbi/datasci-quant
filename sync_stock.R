@@ -19,18 +19,20 @@ suppressMessages({
 alphavantage_key = Sys.getenv("ALPHAVANTAGE")
 
 stock <- toupper(args[1])
+message(stock)
 
 ## FUNDAMENTALS ##
 reports <- list_fundamental_reports()
 
 for (report in reports) {
-  message(paste(stock, report))
+  message(report)
   result <- query_fundamentals(stock, report, alphavantage_key)
   
   if (result$exit_code == 1) {
     print(result)
     quit(save = "no", status = 1)
-  } else {
+  } else if (nrow(result$annual_reports) != 0 & 
+             nrow(result$quarterly_reports)) {
     updatea <- create_or_update_dv(result$annual_reports,
                                    fix_path(
                                      paste0("alphavantage/annual_reports/", report, "/", stock),
@@ -44,21 +46,23 @@ for (report in reports) {
                                    ),
                                    key_cols = "fiscalDateEnding")
     update <- (updateq | updateq)
-  }
-  
-  if (update) {
-    message("Updated")
+    
+    if (update) {
+      message("update")
+    } else {
+      message("noupdate")
+    }
   } else {
-    message("No new data")
+    message("nodata")
   }
-}
-
+} 
+  
 
 ## PRICES ##
 reports <- list_price_reports()
 
 for (report in reports) {
-  message(paste(stock, report))
+  message(report)
   
   result <- query_prices(stock, report, alphavantage_key)
   
@@ -73,15 +77,20 @@ for (report in reports) {
   if (result$exit_code == 1) {
     print(result)
     quit(save = "no", status = 1)
-  } else {
+  } else if (nrow(result$prices) != 0) {
     update <- create_or_update_dv(result$prices,
                                   fix_path(paste0("alphavantage/", path, "/", stock), dest),
                                   key_cols = "date")
-  }
   
-  if (update) {
-    message("Updated")
+    
+    if (update) {
+      message("update")
+    } else {
+      message("noupdate")
+    }
+    
   } else {
-    message("No new data")
-  }
+      message("nodata")
+    }
+  
 }
