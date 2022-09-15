@@ -1,7 +1,8 @@
 make_batch_set <- function(dest, batch_size = 500) {
   
   # Get a list of stocks
-  stocks <- read_dv(fix_path("alphavantage/listed_assets/", dest)) 
+  stocks <- read_dv(fix_path("alphavantage/listed_assets/", dest)) %>% 
+    filter(assetType == "Stock")
   stocks <- unique(stocks$symbol)
   
   # Get a history of stock refreshes
