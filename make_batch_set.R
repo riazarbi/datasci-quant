@@ -14,7 +14,9 @@ suppressMessages({
 batch_size <- 20
 
 # Get list of stocks
-stocks <- make_batch_set(dest, batch_size)
+#stocks <- make_batch_set(dest, batch_size)
+stocks <- make_batch_set2(dest, batch_size)
+
 # Save for echo_universe
 create_or_update_dv(data.frame(stock=stocks), 
                     fix_path("alphavantage/batch_set", dest), 
