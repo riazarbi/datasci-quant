@@ -21,7 +21,7 @@ stocks <- unique(stocks$symbol)
 stocks <- sample(stocks, length(stocks))
 
 # for name compat between sp500 dataset and alphavantage dataset
-stocks <- str_replace_all(stocks, pattern = "[.]", "-")
+#stocks <- str_replace_all(stocks, pattern = "[.]", "-")
 sequential_delay <- rate_limit_seconds/rate_limit 
 
 # Query overview API for each stoc in the list (takes awhile)
