@@ -11,7 +11,8 @@ suppressMessages({
 read_dv(fix_path("alphavantage/listed_assets/", dest)) %>% 
   pull(symbol) %>%
   unique %>%  
-  sample(length(.)) %>%
+  sample(500) %>%
+#  sample(length(.)) %>%
   jsonlite::toJSON() %>% 
   write(stdout())
 

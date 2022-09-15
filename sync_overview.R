@@ -18,7 +18,8 @@ rate_limit_seconds <- 60
 # Get a list of stocks
 stocks <- read_dv(fix_path("alphavantage/listed_assets/", dest)) 
 stocks <- unique(stocks$symbol)
-stocks <- sample(stocks, length(stocks))
+#stocks <- sample(stocks, length(stocks))
+stocks <- sample(stocks, 500)
 
 # for name compat between sp500 dataset and alphavantage dataset
 #stocks <- str_replace_all(stocks, pattern = "[.]", "-")
