@@ -33,12 +33,14 @@ for (report in reports) {
     quit(save = "no", status = 1)
   } else if (nrow(result$annual_reports) != 0 & 
              nrow(result$quarterly_reports)) {
+    message("  annual")
     updatea <- create_or_update_dv(result$annual_reports,
                                    fix_path(
                                      paste0("alphavantage/annual_reports/", report, "/", stock),
                                      dest
                                    ),
                                    key_cols = "fiscalDateEnding")
+    message("  quarterly")
     updateq <- create_or_update_dv(result$quarterly_reports,
                                    fix_path(
                                      paste0("alphavantage/quarterly_reports/", report, "/", stock),
