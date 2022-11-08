@@ -2,8 +2,7 @@ name: Update alphavantage prices datasets
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '5 11 * * *'
+
 
 jobs:
       
