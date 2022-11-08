@@ -29,7 +29,7 @@ RUN R -e "remotes::install_github('riazarbi/dataversionr', dependencies = TRUE, 
 
 # GITHUB ACTIONS FIX ========================================================
 RUN mkdir /github \
- && mkdir /w \
+ && mkdir /__w \
  && chown -R jovyan /github /__w \
  && chmod -R 777 /github /__w
 
