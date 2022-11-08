@@ -28,8 +28,10 @@ RUN R -e "remotes::install_github('riazarbi/r-dummies', dependencies = TRUE)"
 RUN R -e "remotes::install_github('riazarbi/dataversionr', dependencies = TRUE, ref = '0.9.1')" 
 
 # GITHUB ACTIONS FIX ========================================================
-RUN chown -R jovyan /github
-RUN chmod -R 777 /github
+RUN mkdir /github \
+ && mkdir /w \
+ && chown -R jovyan /github /__w \
+ && chmod -R 777 /github /__w
 
 # Run as NB_USER ============================================================
 
