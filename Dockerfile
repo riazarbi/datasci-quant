@@ -9,6 +9,17 @@ USER root
 # For arrow to install bindings
 ENV NOT_CRAN=true
 
+RUN DEBIAN_FRONTEND=noninteractive \
+    apt-get clean && \
+    DEBIAN_FRONTEND=noninteractive \
+    apt-get update && \
+    apt-get install -y \
+    libsodium-dev \
+# Clean out cache
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/* \
+ && rm -rf /tmp/*
+
 # Install jupyter R kernel
 RUN install2.r --skipinstalled --error  --ncpus 3 --deps TRUE -l $R_LIBS_SITE   \
     tidyquant arrow purrr caret diffdfs leaps blastula WikipediR
