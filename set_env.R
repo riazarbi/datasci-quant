@@ -14,7 +14,7 @@ if(Sys.getenv("ALPHAVANTAGE") == "") {
 
 fs <- LocalFileSystem$create()
 if (Sys.getenv("MODE") == "DEV") {
-  dest <- fs$cd("/data/quant")  
+  dest <- fs$cd("/data/quant-dev")  
 } else {
-  dest <- fs$cd("/data/quant-dev")
+  dest <- fs$cd("/data/quant")
 }
