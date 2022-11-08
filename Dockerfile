@@ -1,4 +1,4 @@
-FROM riazarbi/datasci-gui-minimal:20220920203734
+FROM riazarbi/datasci-gui-minimal:20221030110554
 
 LABEL authors="Riaz Arbi"
 
