@@ -27,6 +27,10 @@ RUN install2.r --skipinstalled --error  --ncpus 3 --deps TRUE -l $R_LIBS_SITE   
 RUN R -e "remotes::install_github('riazarbi/r-dummies', dependencies = TRUE)"
 RUN R -e "remotes::install_github('riazarbi/dataversionr', dependencies = TRUE, ref = '0.9.1')" 
 
+# GITHUB ACTIONS FIX ========================================================
+RUN chown -R jovyan /github
+RUN chmod -R 777 /github
+
 # Run as NB_USER ============================================================
 
 USER $NB_USER
