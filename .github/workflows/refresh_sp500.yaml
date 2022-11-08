@@ -2,8 +2,7 @@ name: Scrape S&P 500 constituents
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 4 * * *'
+
 
 jobs:
   scrape_wikipedia_sp500:
